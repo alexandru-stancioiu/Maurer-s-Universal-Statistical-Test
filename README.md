@@ -37,7 +37,7 @@ Tests like Maurer's are being widely abused to judge positively the security of 
 random number generators, probably leading to many security flaws which may go undetected until they are
 widely deployed.
 
-You have to find an "unsecure" PRG that can prove the Maurer's Universal Test is flawed and it should not be
+You have to find an "insecure" PRG that can prove the Maurer's Universal Test is flawed and it should not be
 used to judge the security of a PRG.
 To do this, you must correctly implement the PRG, output a hex string of at least 50KB (you can use a short key) and,
 then, feed it to maurer.py.
