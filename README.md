@@ -1,4 +1,4 @@
-# Maurer-s-Universal-Statistical-Test
+# Maurer's Universal Statistical Test
 By Alexandru Stancioiu and Erlich Sebastian
 
 ## Description
