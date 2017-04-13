@@ -35,7 +35,7 @@ then, feed it to maurer.py.
 
 The output should be that "Sequence is random".
 
-References:
+## References
 
 [1] Ueli M. Maurer, Maurer's Universal Statistical Test for Random Bit Generators, 1992
 ftp://ftp.inf.ethz.ch/pub/crypto/publications/Maurer92a.pdf
