@@ -1,4 +1,5 @@
 import math
+import sys
 
 def hex2bin(hs):
     """
@@ -18,7 +19,7 @@ def backtrack(key, L, table):
 
 def main():
 
-    with open('sample.txt', 'r') as f:
+    with open(sys.argv[1], 'r') as f:
         sample = f.readline()
 
     table = {}
