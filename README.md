@@ -11,9 +11,10 @@ drawn from the uniform distribution.
 We say a PRG is cryptographically secure if there is no "efficient" statistical test that can distinguish its output
 from a true random generator.
 
-## Testing
+## Running
 
 The algorithm requires a file containing a hex string at least 50KB.
+
 By running:
 
 ```
@@ -21,6 +22,14 @@ python maurer.py <file>
 ```
 
 you will find out if the sequence seems random or not !
+
+## Testing
+
+RC4 algorithm was the most widely used stream cipher, being implemented in SSL and WEP. It used to be considered for
+a very long period of time a secure PRG. Our implementation makes no exception and thinks it is secure (outputs "sequence
+is random").
+
+Very obvious non-random sequences like "000...." or "abcdefabcdefabcdef" turn out to be non-random.
 
 ## The challenge
 
