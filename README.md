@@ -13,7 +13,7 @@ from a true random generator.
 
 ## Running
 
-The algorithm requires a file containing a hex string at least 50KB.
+The algorithm requires a file containing a hex string of at least 50KB.
 
 By running:
 
